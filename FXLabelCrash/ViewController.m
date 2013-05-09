@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  FXLabelCrash
+//  FXLabelTest
 //
 //  Created by ytzong on 13-5-9.
 //  Copyright (c) 2013年 ytzong. All rights reserved.
@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)crashChinese:(id)sender {
+	_label.text = @"这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字这是一段长文字";
+}
+
+- (IBAction)crashEnglish:(id)sender {
+	_label.text = @"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+}
 @end
