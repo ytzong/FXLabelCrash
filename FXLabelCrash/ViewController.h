@@ -11,7 +11,10 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet FXLabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *label2;
 - (IBAction)crashChinese:(id)sender;
 - (IBAction)crashEnglish:(id)sender;
+- (IBAction)notCrashChinese:(id)sender;
+- (IBAction)notCrashEnglish:(id)sender;
 
 @end
